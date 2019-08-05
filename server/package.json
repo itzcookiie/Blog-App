@@ -4,8 +4,22 @@
   "description": "Building a blog app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "babel app.js -d dist",
+    "start": "nodemon app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "jest": "^24.8.0"
+  }
 }
