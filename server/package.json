@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "babel app.js -d dist",
     "start": "nodemon app.js"
   },
   "author": "",
@@ -17,9 +16,6 @@
     "nodemon": "^1.19.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
     "jest": "^24.8.0"
   }
 }
